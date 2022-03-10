@@ -13,7 +13,6 @@ import Counter from "./component/secondsCounter.jsx";
 var contador = 0;
 setInterval(() => {
 	contador += 1;
-	console.log(contador);
 	ReactDOM.render(
 		<Counter segundos={contador} />,
 		document.querySelector("#app")
